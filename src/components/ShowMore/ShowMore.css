@@ -1,0 +1,39 @@
+.show-more {
+  max-width: 1280px;
+  box-sizing: border-box;
+  padding: 50px 70px 80px;
+  margin: 0 auto;
+}
+
+.show-more__button {
+  width: 100%;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: 0px;
+  text-align: center;
+  height: 36px;
+  padding: 0;
+  border: none;
+  background-color: #2f2f2f;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.15s linear;
+}
+
+.show-more__button:hover {
+  opacity: 80%;
+}
+
+@media (max-width: 1090px) {
+  .show-more {
+    padding: 50px 30px 80px;
+  }
+}
+
+@media (max-width: 767px) {
+  .show-more {
+    padding: 50px 10px 80px;
+  }
+}
