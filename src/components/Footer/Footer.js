@@ -9,10 +9,20 @@ export default function Footer() {
         <div className="footer__main">
           <p className="footer__text">&#169; 2023</p>
           <div className="footer__links">
-            <a href="#" className="footer__link">
+            <a
+              href="https://practicum.yandex.ru/"
+              className="footer__link"
+              target="_blank"
+              rel="noreferrer"
+            >
               Яндекс.Практикум
             </a>
-            <a href="#" className="footer__link">
+            <a
+              href="https://github.com/arnjolf"
+              className="footer__link"
+              target="_blank"
+              rel="noreferrer"
+            >
               Github
             </a>
           </div>

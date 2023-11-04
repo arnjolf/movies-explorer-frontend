@@ -7,7 +7,7 @@ export default function Burger({ onClose, isOpened }) {
   const isProfileActive = useMatch("/profile");
 
   return (
-    <div className={`burger ${isOpened ? `burger_opened` : ""}`}>
+    <section className={`burger ${isOpened ? `burger_opened` : ""}`}>
       <div className="burger__content">
         <button className="burger__close-button" onClick={onClose}></button>
         <div className="burger__main">
@@ -48,6 +48,6 @@ export default function Burger({ onClose, isOpened }) {
           </NavLink>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

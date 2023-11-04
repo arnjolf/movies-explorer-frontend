@@ -9,7 +9,7 @@ export default function AuthForm({ isRegister }) {
   };
 
   return (
-    <div className="auth-form">
+    <section className="auth-form">
       <div className="auth-form__content">
         <img
           src={Logo}
@@ -62,6 +62,6 @@ export default function AuthForm({ isRegister }) {
           </div>
         </form>
       </div>
-    </div>
+    </section>
   );
 }

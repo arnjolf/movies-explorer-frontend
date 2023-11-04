@@ -50,11 +50,10 @@ export default function Profile({ isAuthorized, onBurgerClick, isMovies }) {
         onBurgerClick={onBurgerClick}
         isMovies={isMovies}
       />
-      <div className="profile__content">
+      <main className="profile__content">
         <h2 className="profile__title">Привет, Виталий!</h2>
         <form className="profile__form">
           <div className="profile__input-box">
-            <span className="profile__span">Имя</span>
             <input
               readOnly={!isEdit}
               onChange={handleInputChange}
@@ -62,11 +61,12 @@ export default function Profile({ isAuthorized, onBurgerClick, isMovies }) {
               type="text"
               className="profile__input"
               defaultValue={currentName}
+              required
             />
+            <span className="profile__span">Имя</span>
           </div>
           <div className="profile__line" />
           <div className="profile__input-box">
-            <span className="profile__span">Почта</span>
             <input
               readOnly={!isEdit}
               onChange={handleInputChange}
@@ -74,7 +74,9 @@ export default function Profile({ isAuthorized, onBurgerClick, isMovies }) {
               type="email"
               className="profile__input"
               defaultValue={currentEmail}
+              required
             />
+            <span className="profile__span">Почта</span>
           </div>
           <div className="profile__footer">
             {isEdit ? (
@@ -104,7 +106,7 @@ export default function Profile({ isAuthorized, onBurgerClick, isMovies }) {
             )}
           </div>
         </form>
-      </div>
+      </main>
     </div>
   );
 }

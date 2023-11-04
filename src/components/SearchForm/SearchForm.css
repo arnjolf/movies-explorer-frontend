@@ -31,6 +31,11 @@
   line-height: 20px;
   letter-spacing: 0px;
   text-align: left;
+  transition: all 0.3s linear;
+}
+
+.search-form__input-text:focus {
+  border: 2px solid #3456f3;
 }
 
 .search-form__input-button {

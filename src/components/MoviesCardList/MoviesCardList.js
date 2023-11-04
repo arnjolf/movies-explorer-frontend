@@ -2,7 +2,7 @@ import MoviesCard from "../MoviesCard/MoviesCard";
 
 export default function MoviesCardList() {
   return (
-    <div className="movies-list">
+    <section className="movies-list">
       <div className="movies-list__grid">
         <MoviesCard isSaved={true} />
         <MoviesCard isSaved={false} />
@@ -11,6 +11,6 @@ export default function MoviesCardList() {
         <MoviesCard isSaved={true} />
         <MoviesCard isSaved={true} />
       </div>
-    </div>
+    </section>
   );
 }

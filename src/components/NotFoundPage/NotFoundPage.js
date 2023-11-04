@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export default function NotFoundPage() {
   return (
-    <div className="notFoundPage">
+    <section className="notFoundPage">
       <div className="notFoundPage__content">
         <h2 className="notFoundPage__title">404</h2>
         <p className="notFoundPage__text">Страница не найдена</p>
@@ -10,6 +10,6 @@ export default function NotFoundPage() {
           Назад
         </Link>
       </div>
-    </div>
+    </section>
   );
 }

@@ -2,13 +2,15 @@ import linkIcon from "../../images/portfolioLinkIcon.svg";
 
 export default function Portfolio() {
   return (
-    <div className="portfolio">
+    <section className="portfolio">
       <h2 className="portfolio__title">Портфолио</h2>
       <ul className="portfolio__links">
         <li className="portfolio__link-item">
           <a
             href="https://github.com/arnjolf/how-to-learn"
             className="portfolio__link"
+            target="_blank"
+            rel="noreferrer"
           >
             <span className="portfolio__link-text">Статичный сайт</span>
             <img
@@ -19,7 +21,12 @@ export default function Portfolio() {
           </a>
         </li>
         <li className="portfolio__link-item">
-          <a href="https://github.com/arnjolf/russian-travel">
+          <a
+            href="https://github.com/arnjolf/russian-travel"
+            className="portfolio__link"
+            target="_blank"
+            rel="noreferrer"
+          >
             <span className="portfolio__link-text">Адаптивный сайт</span>
             <img
               src={linkIcon}
@@ -32,6 +39,8 @@ export default function Portfolio() {
           <a
             href="https://github.com/arnjolf/react-mesto-api-full-gha"
             className="portfolio__link"
+            target="_blank"
+            rel="noreferrer"
           >
             <span className="portfolio__link-text">
               Одностраничное приложение
@@ -44,6 +53,6 @@ export default function Portfolio() {
           </a>
         </li>
       </ul>
-    </div>
+    </section>
   );
 }

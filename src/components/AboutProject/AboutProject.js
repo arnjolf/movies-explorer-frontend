@@ -1,6 +1,6 @@
 export default function AboutProject() {
   return (
-    <div className="aboutpr">
+    <section className="aboutpr">
       <div className="aboutpr__content" id="about-project">
         <h2 className="aboutpr__title">О проекте</h2>
         <div className="aboutpr__line"></div>
@@ -35,6 +35,6 @@ export default function AboutProject() {
           <p className="aboutpr__stage-name">Front-end</p>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

@@ -3,7 +3,7 @@ import Portfolio from "../Portfolio/Portfolio";
 
 export default function AboutMe() {
   return (
-    <div className="aboutMe">
+    <section className="aboutMe">
       <div className="aboutMe__content">
         <h2 className="aboutMe__title">Студент</h2>
         <div className="aboutMe__line"></div>
@@ -18,14 +18,19 @@ export default function AboutMe() {
               Контур». После того, как прошёл курс по веб-разработке, начал
               заниматься фриланс-заказами и ушёл с постоянной работы.
             </p>
-            <a href="#" className="aboutMe__github">
+            <a
+              href="https://github.com/arnjolf"
+              className="aboutMe__github"
+              target="_blank"
+              rel="noreferrer"
+            >
               Github
             </a>
           </div>
-          <img src={photo} className="aboutMe__photo"></img>
+          <img src={photo} className="aboutMe__photo" alt="Portret"></img>
         </div>
         <Portfolio />
       </div>
-    </div>
+    </section>
   );
 }

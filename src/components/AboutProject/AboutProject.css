@@ -108,7 +108,9 @@
   .aboutpr__main {
     margin: 0 0 93px 0;
   }
+}
 
+@media (max-width: 890px) {
   .aboutpr__item {
     max-width: 319px;
   }
@@ -136,6 +138,7 @@
     flex-direction: column;
     gap: 56px;
     margin: 0 0 60px 0;
+    align-items: center;
   }
 
   .aboutpr__subtitle {

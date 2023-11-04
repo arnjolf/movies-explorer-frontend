@@ -2,7 +2,7 @@ import promoImage from "../../images/promoImage.svg";
 
 export default function Promo() {
   return (
-    <div className="promo">
+    <section className="promo">
       <div className="promo__content">
         <div className="promo__main">
           <h1 className="promo__title">
@@ -17,8 +17,12 @@ export default function Promo() {
             </a>
           </div>
         </div>
-        <img src={promoImage} className="promo__image"></img>
+        <img
+          src={promoImage}
+          className="promo__image"
+          alt="Портрретное фото"
+        ></img>
       </div>
-    </div>
+    </section>
   );
 }
