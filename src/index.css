@@ -12,6 +12,7 @@
 
 @import url(./components/NotFoundPage/NotFoundPage.css);
 @import url(./components/Burger/Burger.css);
+@import url(./components/MovieSearchError/MoviesSearchError.css);
 
 @import url(./components/Main/Main.css);
 @import url(./components/Movies/Movies.css);

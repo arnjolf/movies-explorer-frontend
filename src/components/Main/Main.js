@@ -6,11 +6,11 @@ import AboutMe from "../AboutMe/AboutMe.js";
 import Header from "../Header/Header.js";
 import { useState } from "react";
 
-export default function Main({ isAuthorized, onBurgerClick, isMovies }) {
+export default function Main({ loggedIn, onBurgerClick, isMovies }) {
   return (
     <div className="main">
       <Header
-        isAuthorized={isAuthorized}
+        loggedIn={loggedIn}
         onBurgerClick={onBurgerClick}
         isMovies={isMovies}
       />
