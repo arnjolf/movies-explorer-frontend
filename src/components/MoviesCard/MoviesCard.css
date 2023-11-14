@@ -24,6 +24,10 @@
   letter-spacing: 0px;
   text-align: left;
   margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 70%;
 }
 
 .movies-card__duration {
@@ -64,8 +68,27 @@
   background-repeat: no-repeat;
 }
 
+.movies-card__button_delete-saved {
+  background-image: url("../../images/deleteIcon.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .movies-card__image {
+  height: 100%;
   width: 100%;
+}
+
+.movies-card__link {
+  display: block;
+  height: 200px;
+  width: 100%;
+}
+
+@media (max-width: 1090px) {
+  .movies-card__link {
+    height: 190px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -100,5 +123,9 @@
     line-height: 11px;
     letter-spacing: 0px;
     text-align: center;
+  }
+
+  .movies-card__link {
+    height: 168px;
   }
 }

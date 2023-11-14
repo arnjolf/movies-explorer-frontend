@@ -2,7 +2,7 @@ import logoIcon from "../../images/logo.svg";
 import { NavLink, useMatch, useNavigate } from "react-router-dom";
 import React, { useState, useEffect } from "react";
 
-export default function Header({ isAuthorized, onBurgerClick, isMovies }) {
+export default function Header({ loggedIn, onBurgerClick, isMovies }) {
   const navigate = useNavigate();
   const [isLargeScreen, setIsLargeScreen] = useState(true);
 
@@ -36,8 +36,8 @@ export default function Header({ isAuthorized, onBurgerClick, isMovies }) {
           onClick={handleOnLogoClick}
           alt="Logo"
         ></img>
-        <div className={isAuthorized ? "header__nav" : "header__nav_auth"}>
-          {isAuthorized ? (
+        <div className={loggedIn ? "header__nav" : "header__nav_auth"}>
+          {loggedIn ? (
             isLargeScreen ? (
               <>
                 <div className="header__films">
@@ -75,10 +75,10 @@ export default function Header({ isAuthorized, onBurgerClick, isMovies }) {
             )
           ) : (
             <>
-              <NavLink className="header__register" to="/register">
+              <NavLink className="header__register" to="/signup">
                 Регистрация
               </NavLink>
-              <NavLink className="header__login" to="/login">
+              <NavLink className="header__login" to="/signin">
                 Войти
               </NavLink>
             </>

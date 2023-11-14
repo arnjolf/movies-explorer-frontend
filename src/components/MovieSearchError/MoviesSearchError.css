@@ -1,0 +1,14 @@
+.movie-search-error {
+  color: #ee3465;
+  margin: 0;
+  font-weight: 400;
+  padding: 0 30px;
+  font-size: 15px;
+}
+
+@media (max-width: 767px) {
+  .movie-search-error {
+    padding: 0 14px;
+    font-size: 12px;
+  }
+}

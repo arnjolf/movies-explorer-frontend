@@ -3,6 +3,7 @@
   margin: 0 auto;
   padding: 70px 70px 10px;
   box-sizing: border-box;
+  width: 100%;
 }
 
 .movies-list__grid {
@@ -12,6 +13,12 @@
   row-gap: 32px;
   column-gap: 28px;
   justify-content: center;
+}
+
+.movie-list__not-found {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
 }
 
 @media (max-width: 1090px) {
@@ -30,6 +37,10 @@
 @media (max-width: 767px) {
   .movies-list {
     padding: 40px 10px 30px;
+  }
+
+  .movie-list__not-found {
+    font-size: 12px;
   }
 
   .movies-list__grid {
