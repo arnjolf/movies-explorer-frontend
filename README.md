@@ -6,4 +6,4 @@
 
 # Frontend: https://movies-explorer.frnt.nomoredomainsrocks.ru/
 
-# Pull Request: https://github.com/arnjolf/movies-explorer-frontend/pull/8
+# Pull Request: https://github.com/arnjolf/movies-explorer-frontend/pull/
