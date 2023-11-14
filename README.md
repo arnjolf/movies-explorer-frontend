@@ -2,6 +2,8 @@
 
 # https://www.figma.com/file/6FMWkB94wE7KTkcCgUXtnC/%D0%94%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC%D0%BD%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82?type=design&node-id=1-9780&mode=design&t=DTzEKTc6BWymXoQu-0
 
-# Backend: movies-explorer.api.nomoredomainsrocks.ru
+# Backend: https://movies-explorer.api.nomoredomainsrocks.ru/
 
-# Frontend: movies-explorer.frnt.nomoredomainsrocks.ru
+# Frontend: https://movies-explorer.frnt.nomoredomainsrocks.ru/
+
+# Pull Request: https://github.com/arnjolf/movies-explorer-frontend/pull/8
